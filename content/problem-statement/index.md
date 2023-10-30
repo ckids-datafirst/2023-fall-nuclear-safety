@@ -8,7 +8,7 @@ share: false
 
 ## Introduction
 
-This page serves as a **Problem and Requirements Document** for the project.  It should be no more than 5 pages long.  It should be done after or in combination with the Data Assessment document.  It should have an initial release after no more than four weeks into the project, and can serve as an interim project report.  It can be refined as the project progresses and the project is better understood.  
+This project, which will be co-advised by Dr. Yolanda Gil, will use Natural Language Processing (NLP) techniques to analyze voluminous Diablo Canyon Independent Safety Committee (DCISC) annual reports to identify the role and contribution of "Traits of a Healthy Nuclear Safety Culture", as defined by the Nuclear Regulatory Commission and the Institute of Nuclear Power Operations, in incident causation.
 
 ## Motivation
 
