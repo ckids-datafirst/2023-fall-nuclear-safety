@@ -11,6 +11,10 @@ This page contains key sections of the **Final Report** for the project focused 
 ## Data Quality
 
 Describe any steps that were used to address any issues concerning the quality of the data.  This may include collecting data quality metrics, discarding subsets of the data, or applying specific techniques for handling missing values, dealing with outliers, etc. 
+- Raw Annual Reports are extracted from the DCISC website (https://www.dcisc.org/annual-reports/). The focus of this project is on the 32nd Annual Report.
+- We read through the entire report, manually extracted all potential issue statements, labeled them according to the INPO Traits of a Healthy Nuclear Safety Culture handout, and provided reasons for the classification to form the finalized gold standard dataset. 
+- There are both textual and imagery inputs inside the report. Thus, optical characteristic recognition (OCR) is required to extract the entire report.
+- The data quality is low as the issue statement is scattered across the report without clear patterns. In addition, many of the issue statements lack detailed descriptions or the root cause report inside the annual report, which requires additional documentation.
 
 ## Data Preprocessing
 
