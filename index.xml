@@ -25,20 +25,7 @@
 &lt;h2 id="data-challenges">Data Challenges&lt;/h2>
 &lt;p>Summarize why analyzing this data will be challenging. This may include issues like data heterogeneity, data size, and any pre- or post-processing needs. Explain some ideas for how these challenges could be addressed.&lt;/p>
 &lt;h2 id="data-visualizations-and-highlights">Data Visualizations and Highlights&lt;/h2>
-&lt;p>Including a visualization is a simple way to show something interesting about the data. Perhaps the visualizations could simply highlight the size, distribution, and other simple statistical characteristics of the data.&lt;/p></description></item><item><title>Problem and Requirements</title><link>https://ckids-datafest.github.io/template-project-website/problem-statement/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/template-project-website/problem-statement/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>This project, which will be co-advised by Dr. Yolanda Gil, will use Natural Language Processing (NLP) techniques to analyze voluminous Diablo Canyon Independent Safety Committee (DCISC) annual reports to identify the role and contribution of &amp;ldquo;Traits of a Healthy Nuclear Safety Culture&amp;rdquo;, as defined by the Nuclear Regulatory Commission and the Institute of Nuclear Power Operations, in incident causation.&lt;/p>
-&lt;h2 id="motivation">Motivation&lt;/h2>
-&lt;p>The project advisor should have provided the general context for the project, the kinds of problems that could be addressed using the data available, and the overall motivation for working in this area.&lt;/p>
-&lt;h2 id="problem-for-the-semester">Problem for the Semester&lt;/h2>
-&lt;p>While the motivation section typically describes the long-term reasons to tackle this project, the problem section should focus on the specific problem and goals selected for the current semester. It should be a realistic goal that can be accomplished with the resources available, and this typically means the data, the people, the time available. It is useful to be specific about the initial questions that will be addressed first, because those typically lead to a better understanding of what other questions could be tackled. This will help establish a clear scope for the project that will give everyone reasonable confidence of what the team can achieve. It is also very useful to describe what the team is not going to tackle and has agreed to leave for future work.&lt;/p>
-&lt;h2 id="state-of-the-art">State of the Art&lt;/h2>
-&lt;p>Provide a brief summary or survey of the possible approaches, advances, or tools that are currently available that could potentially be used to address the problem.&lt;/p>
-&lt;h2 id="design-and-approach">Design and Approach&lt;/h2>
-&lt;p>Discuss the initial approach that the team will follow. This may include the key idea that the team believes could potentially work, and a high-level description of 1) the system to be built and a diagram of its components, 2) the inputs to the system and the task that it will do with that data, and 3) the outputs to be generated. Discuss also a baseline system that is simple and can be quickly built to address the problem in a reasonable way even if it has poor performance, so that you can clearly show improvements. Discuss also how those improvements will be demonstrated through metrics or other means.&lt;/p>
-&lt;h2 id="use-case-scenario">Use Case Scenario&lt;/h2>
-&lt;p>Show with a use case scenario with examples of who the ultimate users could be, what the system that you plan to build for the semester will do in that scenario. Provide a mockup of the outputs for the use case that you propose.&lt;/p>
-&lt;h2 id="desired-outcomes-and-benefits">Desired Outcomes and Benefits&lt;/h2>
-&lt;p>Connect back the system that you will be building with the initial motivation for the work, and what additional future work might be needed in order for the system to provide benefits to its users.&lt;/p></description></item><item><title>Results</title><link>https://ckids-datafest.github.io/template-project-website/results/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/template-project-website/results/</guid><description>&lt;p>This page contains key sections of the &lt;strong>Final Report&lt;/strong> for the project focused on results to date. It should be no more than 2 pages long. An initial draft can be created at any point during the project, and can be refined as the project progresses.&lt;/p>
+&lt;p>Including a visualization is a simple way to show something interesting about the data. Perhaps the visualizations could simply highlight the size, distribution, and other simple statistical characteristics of the data.&lt;/p></description></item><item><title>Results</title><link>https://ckids-datafest.github.io/template-project-website/results/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/template-project-website/results/</guid><description>&lt;p>This page contains key sections of the &lt;strong>Final Report&lt;/strong> for the project focused on results to date. It should be no more than 2 pages long. An initial draft can be created at any point during the project, and can be refined as the project progresses.&lt;/p>
 &lt;h2 id="system-and-model-performance">System and Model Performance&lt;/h2>
 &lt;p>Show the performance of the best system and model(s) developed, showing clearly the performance metrics and improvements over the baseline system as appropriate. Create visualizations that show clearly these results.&lt;/p>
 &lt;h2 id="discussion-of-findings">Discussion of Findings&lt;/h2>
@@ -46,4 +33,40 @@
 &lt;p>Discuss any unexpected results, and potential explanations.&lt;/p>
 &lt;p>Enumerate (ideally in bullets) the most important findings, and their impact on your project goals.&lt;/p>
 &lt;h2 id="limitations-and-future-work">Limitations and Future Work&lt;/h2>
-&lt;p>Discuss any limitations of the work to date, how these limitations could be addressed in future work. Discuss what lines of work are most promising given the understanding of the problem and the data gained throughout the project.&lt;/p></description></item></channel></rss>
+&lt;p>Discuss any limitations of the work to date, how these limitations could be addressed in future work. Discuss what lines of work are most promising given the understanding of the problem and the data gained throughout the project.&lt;/p></description></item><item><title/><link>https://ckids-datafest.github.io/template-project-website/problem-statement/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ckids-datafest.github.io/template-project-website/problem-statement/</guid><description>&lt;h2 id="share-false">title: Problem and Requirements
+summary: Problem and Requirements document that will drive the work to be done in the project
+date: &amp;ldquo;2023-11-28T00:00:00Z&amp;rdquo;
+editable: true
+share: false&lt;/h2>
+&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;p>This project, which will be co-advised by Dr. Yolanda Gil, will use Natural Language Processing (NLP) techniques to analyze voluminous Diablo Canyon Independent Safety Committee (DCISC) annual reports to identify the role and contribution of &amp;ldquo;Traits of a Healthy Nuclear Safety Culture&amp;rdquo;, as defined by the Nuclear Regulatory Commission and the Institute of Nuclear Power Operations, in incident causation.&lt;/p>
+&lt;h2 id="motivation">Motivation&lt;/h2>
+&lt;p>Nuclear power plant is a viable clean energy source given it does not generate any pollution while generating power. The diablo canyon nuclear power plant is the focus of this project, which is also the last operating nuclear power plant inside the state of California. Given the tragical incidences from Cernobyl in 1986 and from Fukushima in 2011, it is important to make this plant operates safely until scheduled closing by 2030.&lt;/p>
+&lt;h2 id="problem-for-the-semester">Problem for the Semester&lt;/h2>
+&lt;p>We need to identify the issue statment in side the 32nd annual report, form a golden standard where we manually labeled each statement using the ten healthy traits provided in the INPO report. After that, we aim to build models that can automate the labeling processure with reasonable model performance. There should be base line models and LLM models working in parallel so that we could compare the model performances and form a solid ground for the next semster&amp;rsquo;s project.&lt;/p>
+&lt;h2 id="state-of-the-art">State of the Art&lt;/h2>
+&lt;ul>
+&lt;li>Advanced Large Language Models (LLM) can be state-of-the-art tools to implement for this project.&lt;/li>
+&lt;li>Additional Machine Learning models such as Logistic Regression, KMeans, and traditional NLP methods like seed word are implemented in parallel via Python as the comparison group.&lt;/li>
+&lt;/ul>
+&lt;h2 id="design-and-approach">Design and Approach&lt;/h2>
+&lt;ol>
+&lt;li>We split the document among each team member to get extract and labeled the issue statements to form the dataset.&lt;/li>
+&lt;li>With the help of professor Ulf, we finalized the baseline model selection and choose additional state-of-art models as comparison group.
+&lt;ul>
+&lt;li>The input for the issue statement model should be the entire annual report, and this model should have both the ability to do Optical Characterisitc Recognition (OCR), and also sentiment analysis or seed word extraction so that it could extract the issue statement as the output.&lt;/li>
+&lt;li>The input for all label classification models should be each issue statement, and the output should be the label(s) the model assigned with along with the confidence level and reasoning behind it.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>We use seed word model as the baseline model, using the seed word from previous team as the base model. The main issue includes unbalanced healthy traits inside the issue statement dataset, and limited seed word is presented. Some clear improvements includes assigning weights to minority traits and put second-layered seed words.&lt;/li>
+&lt;li>Moving from the seed word base line, we initiated the logistic regression and kmeans clustering models to set additional base line models to explore more potential directions.&lt;/li>
+&lt;li>At the same time, we utilized multiple the state-of-art LLM models and finalized with claud-2 and GPT3.5 models.&lt;/li>
+&lt;li>We test all models on the dataset to compare model performances.
+&lt;img width="1033" alt="image" src="https://github.com/ckids-datafirst/2023-fall-nuclear-safety/assets/95256481/c3541929-093d-4a3d-8cf5-59f7db444a17">
+(An overview diagram for our system design)&lt;/li>
+&lt;/ol>
+&lt;h2 id="use-case-scenario">Use Case Scenario&lt;/h2>
+&lt;p>Researchers who want to investigate the operation of the Diablo Canyon Nuclear Power Plant healthy traits, or compare different years&amp;rsquo; performance to determine the main focus of future improvements.&lt;/p>
+&lt;p>For instance, the researcher download the annual report pdf from 21st to 33rd, then put one report at a time into the system. Then, he would be able to get a list of healthy traits for each year, with stats and visualizations to better understand the key issues. To compare the trend, the researcher can look at different charts to determine the leadership performance, or if there are any long-lasting safety traits that are being ignored during daily operations.&lt;/p>
+&lt;h2 id="desired-outcomes-and-benefits">Desired Outcomes and Benefits&lt;/h2>
+&lt;p>The desired outcome would include a well-designed dashboard that connect with well-performing models we built. The user would simply put as many annual reports as they want, and the system would analyze what issue statments are and their safety traits, make interactive visualizations that help user to get a comprehensive view of the report.&lt;/p></description></item></channel></rss>
