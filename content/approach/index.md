@@ -47,7 +47,7 @@ Describe the steps taken to preprocess the raw data to prepare it for analysis. 
 -- Fine-tuned the model with the INPO Traits of a Healthy Nuclear Safety Culture handout
 -- Formed output format to include the original/summarized issue statement in one column, traits it labeled with along with the confidence level in one column, and reasoning for the third column. Finally, label all issue statements inside the dataset with the required table format.
 -- We tried both ChatGPT3.5 and Claud-2 from perplexity using a similar process.
-
+-- Here is the link for the ChatGPT3.5 model we fine-tuned, including the process and the result: https://chat.openai.com/share/34046a4f-ca87-4311-8fcb-6b1b83764578
 
 ## Model Evaluation
 
