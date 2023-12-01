@@ -1,7 +1,6 @@
-<img width="1033" alt="image" src="https://github.com/ckids-datafirst/2023-fall-nuclear-safety/assets/95256481/6781172b-3b0f-4ee4-86b6-a2f22a9aa7c4">---
 title: Problem and Requirements
 summary: Problem and Requirements document that will drive the work to be done in the project
-date: "2018-06-28T00:00:00Z"
+date: "2023-11-28T00:00:00Z"
 editable: true
 share: false
 ---
@@ -40,11 +39,10 @@ We need to identify the issue statment in side the 32nd annual report, form a go
 
 ## Use Case Scenario
 
-Show with a use case scenario with examples of who the ultimate users could be, what the system that you plan to build for the semester will do in that scenario.  Provide a mockup of the outputs for the use case that you propose.
+Researchers who want to investigate the operation of the Diablo Canyon Nuclear Power Plant healthy traits, or compare different years' performance to determine the main focus of future improvements.
 
-Researchers who want to investigate the operation of the Diablo Canyon Nuclear Power Plant healthy traits, or compare different years' performance to determine the main focus of future improvements. 
-
+For instance, the researcher download the annual report pdf from 21st to 33rd, then put one report at a time into the system. Then, he would be able to get a list of healthy traits for each year, with stats and visualizations to better understand the key issues. To compare the trend, the researcher can look at different charts to determine the leadership performance, or if there are any long-lasting safety traits that are being ignored during daily operations.
 
 ## Desired Outcomes and Benefits
 
-Connect back the system that you will be building with the initial motivation for the work, and what additional future work might be needed in order for the system to provide benefits to its users.
+The desired outcome would include a well-designed dashboard that connect with well-performing models we built. The user would simply put as many annual reports as they want, and the system would analyze what issue statments are and their safety traits, make interactive visualizations that help user to get a comprehensive view of the report.  
