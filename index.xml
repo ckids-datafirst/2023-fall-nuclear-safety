@@ -33,7 +33,8 @@
 &lt;h3 id="large-language-models">Large Language Models:&lt;/h3>
 &lt;p>&amp;ndash; Fine-tuned the model with the INPO Traits of a Healthy Nuclear Safety Culture handout
 &amp;ndash; Formed output format to include the original/summarized issue statement in one column, traits it labeled with along with the confidence level in one column, and reasoning for the third column. Finally, label all issue statements inside the dataset with the required table format.
-&amp;ndash; We tried both ChatGPT3.5 and Claud-2 from perplexity using a similar process.&lt;/p>
+&amp;ndash; We tried both ChatGPT3.5 and Claud-2 from perplexity using a similar process.
+&amp;ndash; Here is the link for the ChatGPT3.5 model we fine-tuned, including the process and the result: &lt;a href="https://chat.openai.com/share/34046a4f-ca87-4311-8fcb-6b1b83764578" target="_blank" rel="noopener">https://chat.openai.com/share/34046a4f-ca87-4311-8fcb-6b1b83764578&lt;/a>&lt;/p>
 &lt;h2 id="model-evaluation">Model Evaluation&lt;/h2>
 &lt;ul>
 &lt;li>We utilized accuracy and F-1 score to evaluate the model performance.&lt;/li>
