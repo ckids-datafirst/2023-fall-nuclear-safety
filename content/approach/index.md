@@ -20,14 +20,36 @@ Describe any steps that were used to address any issues concerning the quality o
 
 Describe the steps taken to preprocess the raw data to prepare it for analysis. This may include data transformations to convert to a required format, feature engineering operations, encoding features as binary, etc.
 
+- We used OCR via Python since many issue statements are mentioned with the imagery format rather than text.
+- After the OCR, we can get a txt file that is readable for the machine for the issue statement extraction task (left for next semester's project).
+- Manually extracted and labeled all issue statements using the INPO Traits of a Healthy Nuclear Safety Culture to form the golden standard csv dataset.
+- Vectorize the issue statements and ten safe traits so the LLMs can read them.
+- Build additional seed words and secondary seed words based on the previous team's effort.
+
 ## Exploratory Data Analysis (EDA)
 
-Discuss any techniques employed to gain insights into the data. This could include data visualizations, generating summary statistics, initial analysis, and other exploratory techniques used to understand the data distributions, features, and helpful patterns.
+- After finalizing the CSV dataset, we visualized the distribution of the safety traits, which shows the imbalanced issue and reveals the top safety traits related to the issues.
 
 ## Model Development
 
-Describe the algorithms, methodology, and architectures used to generate models.  Discuss how models were generated, seeded, and improved.  Show the libraries and frameworks used for model development, as well as the rationale behind those choices.
+### Seed Word Model:
+-- Python libraries: spacy and scikit-learn
+-- The classic NLP method recommended by Professor Ulf also provided a good baseline for the previous team.
+-- We utilized the previous team's seed words on the first try and achieved 53% accuracy with a 47% F1 score. 
+-- Added weights for safety traits to counter data imbalance issues and added additional seed words to make the model more comprehensive.
+
+### Logistic Regression Model:
+-- Python libraries: scikit-learn
+-- Vectorized the dataset to help with large textual dataset analysis.
+-- Use 10-fold cross-validation and get ten accuracy scores for each logistic regression model
+
+### Large Language Models:
+-- Fine-tuned the model with the INPO Traits of a Healthy Nuclear Safety Culture handout
+-- Formed output format to include the original/summarized issue statement in one column, traits it labeled with along with the confidence level in one column, and reasoning for the third column. Finally, label all issue statements inside the dataset with the required table format.
+-- We tried both ChatGPT3.5 and Claud-2 from perplexity using a similar process.
+
 
 ## Model Evaluation
 
-Discuss the evaluation metrics used to assess model performance, and justify those choices based on the problem that the project is addressing. Describe the evaluation techniques used, such as cross-validation, and how undesirable model behaviors, such as overfitting, were avoided.
+- We utilized accuracy and F-1 score to evaluate the model performance. 
+- We use cross-validation for the overfitting check and model performance evaluation for the Logistic Regression model.
