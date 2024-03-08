@@ -62,7 +62,7 @@ def train_model(X_train, X_test, y_train, y_test, model):
 
 def main():
     # Load the CSV file into a Pandas DataFrame
-    file_path = "/workspaces/NLP-of-Nuclear-Safety-Reports/Traits Dataset - Sheet1.csv"
+    file_path = "content/approach/Traits Dataset - Sheet1.csv"
     df = pd.read_csv(file_path)
 
     # Apply text cleaning to the 'Issue Statement' column
