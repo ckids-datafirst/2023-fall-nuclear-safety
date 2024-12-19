@@ -61,7 +61,7 @@
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="images/result.png" alt="Model Performance" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="https://ckids-datafest.github.io/template-project-website/images/result.png" alt="Model Performance" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;h2 id="discussion-of-findings">Discussion of Findings&lt;/h2>
