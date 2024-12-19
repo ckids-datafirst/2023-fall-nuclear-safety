@@ -12,22 +12,21 @@ appearance:
   font_size: L
 
 # SEO
-
 marketing:
   seo:
     site_type: Organization
     local_business_type: ""
-    org_name: ""
-    description: "A highly-customizable Hugo research group theme powered by Wowchemy website builder."
-    twitter: "wowchemy"
+    org_name: "Natural Language Processing of Safety Reports"
+    description: "Analyzing nuclear safety reports using NLP and LLM approaches."
+    twitter: ""
   analytics:
-    google_analytics: ""
-    baidu_tongji: ""
-    google_tag_manager: ""
-    microsoft_clarity: ""
+    google_analytics: null  # Change empty string to null
+    baidu_tongji: null
+    google_tag_manager: null
+    microsoft_clarity: null
   verification:
-    google: ""
-    baidu: ""
+    google: null
+    baidu: null
 
 # Site header
 
