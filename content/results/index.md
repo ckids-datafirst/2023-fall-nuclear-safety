@@ -16,7 +16,7 @@ Our project developed several models to classify nuclear safety issues according
 - Seed Word Model: 58% accuracy 
 - Logistic Regression Model: 51% accuracy
 
-![Model Performance](images/result.png)
+![Model Performance](/images/result.png)
 
 ## Discussion of Findings
 
