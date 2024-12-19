@@ -24,7 +24,7 @@ To edit the pages, navigate to the `content` folder and edit the corresponding `
 | Problem  | [content/problem-statement/\_index.md](content/problem-statement/index.md) |
 | Data     | [content/data/\_index.md](content/data/index.md)                           |
 | Approach | [content/approach/\_index.md](content/approach/index.md)                   |
-| Outcomes | [content/outcomes/\_index.md](content/results/Nuclear Safety.pdf)                   |
+| Outcomes | [content/outcomes/\_index.md](content/results/index.md)                   |
 
 Special pages:
 
